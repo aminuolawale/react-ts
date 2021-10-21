@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.4.4"
+  },
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
+    "target": "es5"
   }
 }
