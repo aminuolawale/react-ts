@@ -4,5 +4,5 @@ namespace A {
 
 namespace B {
   class SecondClass {}
-  const test = new FirstClass();
+  const test = new FirstClass(); // FirstClass is not in scope.
 }
